@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-color: purple;
+
+
+            
+        }
+        .card{
+            background: rgb(63, 63, 235);
+            align-items: center;
+            position: relative;
+            width: 320px;
+            height: 450px;
+            
+            border-radius: 20px;
+            border-bottom-left-radius: 160px;
+            border-bottom-right-radius: 160px;
+        }
+        .icon div{
+            width: 140px;
+            height: 140px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+        }
+        .icon{
+            width: 140px;
+            height: 120px;
+            background-color: purple;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border-bottom: 6px solid #FFF;
+        }
+        .icon img{
+            position: relative;
+            width: 90px;
+            height: 90px;
+            border: 1px solid #000;
+            border-radius: 100%;
+           
+        }
+        .content h2{
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .content p{
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .container{
+            background-color: #fff;
+            width: 320px;
+            height: 456px;
+            margin: 50px;
+             border-radius:  150px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <div class="card">
+                <div class="icon">
+                <img src="assets/img/globe.png" alt="">
+               
+                </div>
+                <div class="content">
+                <h2>Card One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam debitis numquam, alias laborum eaque natus dolor totam perspiciatis adipisci ipsum rem amet nobis commodi placeat!</p>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

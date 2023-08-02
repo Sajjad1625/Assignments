@@ -1,0 +1,22 @@
+@media(max-width:768px){ 
+    .container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    header>nav>ul>li{
+        display: block;
+        justify-items: center;
+       
+    }
+    .item1{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .item1>img{
+        justify-content: center;
+    }
+}
+@media(min-width:769) and (max-width:1024px){
+    
+}
