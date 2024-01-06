@@ -1,0 +1,48 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: gray;
+}
+section{
+  background-color: rgb(67, 81, 90);
+  text-align: center;
+  width: 380px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-top: 150px;
+  margin-left: 450px;
+  color: #fff;
+
+}
+.profile{
+  margin-top: -75px;
+}
+.profile img{
+  border: 7px solid rgb(200, 69, 131);
+  border-radius: 50%;
+  height: 150px;
+}
+.Card{
+  padding: 40px;
+  line-height: 2; 
+}
+.icons{
+  padding: 30px;
+}
+.icons img{
+  height: 45px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(200, 69, 131);
+  border-radius: 100%;
+}
+.footer{
+  background-color: rgb(200, 69, 131);
+  border: 1px solid rgb(200, 69, 131);
+  padding: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #fff;
+}
